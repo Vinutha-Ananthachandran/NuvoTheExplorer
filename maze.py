@@ -1,0 +1,160 @@
+import turtle
+import turtlehelper as th
+
+def draw_maze():
+  # Create turtle 1
+  t1 = th.create_turtle_object("black",3,"arrow",0)
+  
+  # Move them to different starting positions
+  th.set_cursor(t1,0,100)
+  
+  # Draw shapes with both turtles
+  t1.forward(150)
+  t1.right(90)
+  t1.forward(250)
+  t1.right(90)
+  t1.forward(300)
+  t1.right(90)
+  t1.forward(250)
+  t1.right(90)
+  t1.forward(110)
+  t1.right(90)
+  t1.forward(30)
+  
+  th.set_cursor(t1,-120,70)
+  
+  t1.left(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(150)
+  t1.left(90)
+  t1.forward(30)
+  
+  th.set_cursor(t1,30,70)
+  
+  t1.left(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(40)
+  t1.left(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(40)
+  t1.right(90)
+  t1.forward(70)
+  t1.right(90)
+  t1.forward(40)
+  t1.left(90)
+  t1.forward(90)
+  
+  th.set_cursor(t1,-65,-150)
+  
+  t1.right(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(30)
+  
+  th.set_cursor(t1,60,-100)
+  
+  t1.right(90)
+  t1.right(90)
+  t1.forward(50)
+  t1.right(90)
+  t1.forward(35)
+  t1.right(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(35)
+  t1.left(90)
+  t1.forward(60)
+  t1.right(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(30)
+  
+  th.set_cursor(t1,90,-120)
+  
+  t1.left(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(90)
+  t1.left(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.forward(50)
+  t1.right(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(50)
+  t1.left(90)
+  t1.forward(30)
+  
+  th.set_cursor(t1,150,-5)
+  
+  t1.forward(30)
+  
+  th.set_cursor(t1,30,40)
+  
+  t1.left(90)
+  t1.forward(45)
+  t1.left(90)
+  t1.left(90)
+  t1.forward(15)
+  t1.right(90)
+  t1.forward(60)
+  
+  th.set_cursor(t1,-40,-90)
+  
+  t1.left(90)
+  t1.left(90)
+  t1.forward(28)
+  t1.left(90)
+  t1.forward(30)
+  t1.right(90)
+  t1.right(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(28)
+  
+  th.set_cursor(t1,-70,40)
+  
+  t1.left(90)
+  t1.forward(65)
+  t1.left(90)
+  t1.forward(35)
+  t1.right(90)
+  t1.right(90)
+  t1.forward(80)
+  t1.left(90)
+  t1.forward(40)
+  t1.left(90)
+  t1.forward(40)
+  t1.left(90)
+  t1.left(90)
+  t1.forward(40)
+  t1.left(90)
+  t1.forward(50)
+  
+  th.set_cursor(t1,-150,40)
+  
+  t1.left(90)
+  t1.forward(28)
+  t1.right(90)
+  t1.forward(30)
+  t1.left(90)
+  t1.forward(30)
+  
+  t1.hideturtle()
+  return
